@@ -10,8 +10,30 @@ body {
     padding: 0 0 60px;
 }
 
-.wrap > .container {
+.wrap > .header {
     padding: 70px 15px 20px;
+}
+
+.header {
+    background-color: #1ccaa8;
+    color: white;
+}
+
+.header .breadcrumb{
+    background: transparent;
+    color: white;
+    padding: 0px 0px;
+    margin-bottom: 23px;
+    border-radius: 0px;
+}
+
+.header .breadcrumb a{
+    background: transparent;
+    color: white;
+}
+
+.breadcrumb > .active {
+    color: white;
 }
 
 .footer {
